@@ -1,23 +1,19 @@
+body {
+  font-family: "Nunito";
+}
+
 .form-control {
   box-shadow: none;
   font-weight: normal;
   font-size: 13px;
 }
-.navbar {
-  background: #fff;
-  padding-left: 16px;
-  padding-right: 16px;
-  border-bottom: 1px solid #dfe3e8;
-  border-radius: 0;
+
+.navbar,
+.nav-link,
+.navbar-brand {
+  color: #9e1a26;
 }
-.navbar .navbar-brand {
-  padding-left: 0;
-  font-size: 20px;
-  padding-right: 50px;
-}
-.navbar .navbar-brand b {
-  color: #33cabb;
-}
+
 .navbar .form-inline {
   display: inline-block;
 }
@@ -73,7 +69,7 @@
 .navbar .btn-primary:hover,
 .navbar .btn-primary:focus {
   color: #fff;
-  background: #31bfb1 !important;
+  background: #a71b3b !important;
 }
 .navbar .action-buttons .dropdown-toggle::after {
   display: none;
@@ -81,27 +77,6 @@
 .form-check-label input {
   position: relative;
   top: 1px;
-}
-
-@media (min-width: 1200px) {
-  .form-inline .input-group {
-    width: 300px;
-    margin-left: 30px;
-  }
-}
-@media (max-width: 768px) {
-  .navbar .dropdown-menu.action-form {
-    width: 100%;
-    padding: 10px 15px;
-    background: transparent;
-    border: none;
-  }
-  .navbar .form-inline {
-    display: block;
-  }
-  .navbar .input-group {
-    width: 100%;
-  }
 }
 
 .about-body-wrap {
@@ -121,11 +96,25 @@
 }
 
 .choices-header {
-  height: 908px;
+  height: 508px;
+  font-size: 17px;
 }
 
-.choices .row {
-  column-gap: 240px;
+.choices-header h3 {
+  text-align: center;
+}
+
+.choices-container {
+  text-align: justify;
+  margin-right: -600px;
+  margin-top: 80px;
+}
+
+.choices-container .card {
+  height: 200px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .your-choice {
@@ -137,16 +126,16 @@
 
 .choices .card {
   background-color: #fff3f9;
-}
-
-.our-values .row {
-  width: 539px;
-  height: 225px;
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 .tagline .card {
   text-align: center;
   background-color: #e4b8c2;
+  margin-top: 180px;
 }
 
 .tagline img {
@@ -201,4 +190,25 @@
 
 hr {
   height: 1px;
+}
+
+@media (min-width: 1200px) {
+  .form-inline .input-group {
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .dropdown-menu.action-form {
+    width: 100%;
+    padding: 10px 15px;
+    background: transparent;
+    border: none;
+  }
+  .navbar .form-inline {
+    display: block;
+  }
+  .navbar .input-group {
+    width: 100%;
+  }
 }
