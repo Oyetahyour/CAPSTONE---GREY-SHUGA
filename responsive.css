@@ -1,325 +1,55 @@
-@media only screen and (max-width: 600px) {
-   .homepage-container{
-   
-width: 600px;
 
-   }
-   .container img{
-   
-   }
-   .header h1{
-    font-size: 20px;
-    margin-right: 200px;
-   }
-   .header p{
-    font-size: 15px;
-    margin: auto;
-    padding-left: 20px;
-    padding-right: 130px;
- padding-bottom: 20px;
-   }
- 
-.headerImage{
-padding-top: 300px;
-padding-left: 260px;
-padding-bottom: 50px;
-
-    
-}
-.key-features{
-    width: 600px;
-}
-.card-body{width: 150px;
-margin-right: 20px !important;
-}
-.card-body h5{
-    font-size: 15px;
-}
-.card-body p{
-    font-size: 13px;
-   padding-right: 6px;
-}
-.heroHeading {
-  font-size: 20px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-right: 300px;
-  margin-top: 50px;
-   
-    
-
-}
-.heroSectionText{
-    justify-content: center;
-    text-align: center;
-  
-  padding-right: 300px;
-  font-size: 15px;
-  
-}
-.heroImage{
-    display:flex;
-    flex-direction: row;
-    float: left;
-    width: 600px;
-    height: 300px;
-    margin-top: 2px;
-    
-   
-  }
-  .delicious-offerings h3{
-
- width: 600px;
-    
-  
-  padding-right: 300px;
-  font-size: 20px;
- margin-right: 600px;
-  }
-  .grid-offerings 
-
-{
-    
-    display:flex;
-    flex-direction: column;
-    float: left;
-   margin-top: 50px;
-   margin-bottom: 100px;
-   
-}
-
-.footer-container{
- padding-left: 20px;
- 
- 
-
-
-}
-
-}
 /* About */
-@media only screen and (max-width: 550px){
-  .choices-header {
-    height: 700px !important;
+
+@media only screen and (max-width: 550px) {
+  .about-header{
+    display: flex;
+    flex-direction: row;
   }
-   
-  .col img{
-       width: 250px;
-       height: 300px;
-   margin-top: 80px;
-    
-    }
-    .about-summary{
-      width: 100px;
-        font-size: 15px;
-    }
-   .card{
+  
+  .about-summary{
+    width: 300px;
+      font-size: 18px;
+  }
+  .card{
     width: 200px;
-    margin-right: 700px;
+    margin-right: 800px;
     font-size: 10px;
     
    }
    .tagline {
-  width: 10px;
+    width: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+     
+  
+     }
+     .tagline .card{
+      margin-top: 20px;
+     }
+     .footer-container{
+      width: 1000px;
+  }
+  
+    .choices-container .card{
+        margin-bottom: 20px !important;
+        margin-left: 100px;
+    }
+    .your-choice .us{
    
+    margin-right: 300px;
+  
+  }
+  .vision{
+    margin-left: 100px;
+  }
+}
 
-   }
-   .tagline .card{
-    margin-top: 20px;
-   }
-}
-.your-choice{
-margin-left: 0px !important;
-margin-right: 0px !important;
-   
-}
-.choices-container .card{
-    margin-bottom: 20px !important;
-}
-.footer-container{
-    width: 200px;
-}
 @media only screen and (max-width: 450px)
 {
     .about-summary{
-        font-size: 13px;
-       
-    }
-}
-@media only screen and (max-width: 380px)
-{
-    .about-summary{
-      
-        font-size: 11px;
-    }
-}
-@media only screen and (max-width: 380px)
-{
-    .about-summary{
-      
-        font-size: 10px;
-    }}
-    @media only screen and (min-width: 600px){
-      .about-summary{
-      
         font-size: 17px;
-    }
-    .col img{
-      width: 350px;
-      height: 400px;
-  margin-top: 80px;
-   
-   }
-   .your-choice{
-   width: 450px; 
-    }
-    .choices-container .card{
-      width: 450px;
-     
-     }
-     .tagline {
-      width: 450px;
-       
-    
-       }
-       .choices-header{
-        height: 700px;
-       }
-       .footer-container{
-    width: 450px;
-        
-        
-       
-       
-       }
-
        
     }
-    @media only screen and (max-width: 700px){
-      .about-summary{
-       font-size: 15px ;
-      
-      
-      }
-    
-    @media only screen and (min-width: 729px){
-      .about-summary{
-       font-size: 20px;
-      }
-    }
-    @media only screen and (max-width: 800px){
-      .about-summary{
-       font-size: 14px;
-     
-      }
-    }
-    @media only screen and (max-width: 736px){
-      .about-summary{
-       font-size: 10px;
-     
-      }}
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .homepage-container{
-   
-        
-        
-           }
-           .container img{
-           
-           }
-           .header h1{
-            font-size: 50px;
-            margin-right: 200px;
-           }
-           .header p{
-            font-size: 15px;
-            margin: auto;
-            padding-left: 20px;
-            padding-right: 130px;
-         padding-bottom: 20px;
-           }
-         
-        /* .headerImage{
-        padding-top: 300px;
-        padding-left: 260px;
-        padding-bottom: 50px;
-        
-            
-        } */
-        .headerImage{
-            width: 300px;
-        }
-        .key-features{
-            width: 600px;
-        }
-        .card-body{width: 150px;
-        margin-right: 20px !important;
-        }
-        .card-body h5{
-            font-size: 15px;
-        }
-        .card-body p{
-            font-size: 13px;
-           padding-right: 6px;
-        }
-        .heroHeading {
-          font-size: 20px;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-          padding-right: 300px;
-          margin-top: 50px;
-           
-            
-        
-        }
-        .heroSectionText{
-            justify-content: center;
-            text-align: center;
-          
-          padding-right: 300px;
-          font-size: 15px;
-          
-        }
-        .heroImage{
-            /* display:flex;
-            flex-direction: row;
-            float: left;
-            width: 600px;
-            height: 300px;
-            margin-top: 2px; */
-            
-           
-          }
-          .delicious-offerings h3{
-        
-         width: 600px;
-            
-          
-          padding-right: 300px;
-          font-size: 20px;
-         margin-right: 600px;
-          }
-          .grid-offerings 
-        
-        {
-            
-            display:flex;
-            flex-direction: column;
-            float: left;
-           margin-top: 50px;
-           margin-bottom: 100px;
-           
-        }
-        
-        .footer-container{
-         padding-left: 20px;
-         
-         
-        
-        
-        }
-  }
-}
+} 
