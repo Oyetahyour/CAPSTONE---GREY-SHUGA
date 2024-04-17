@@ -44,25 +44,13 @@ width: 500px;
 
    }
    .contact-card{
-    margin-right: 50px;
+    margin-right: 40px;
+    padding-right: 50px;
    }
-}
-@media only screen and (max-width: 550px)
-{.contact {
-   width: 400px;
-}
-   .contact-container{
-width: 400px;
-
-
+   .flex{
+   margin-left: 50px;
    }
-   .col-4{
-   margin-right: 100px;
-   }
-   .footer-container{
-   margin-top: 500px;
-   }
-   .homepage-container {
-    width: 200px;
+   .subject{
+    margin-left: 50px;
    }
 }
