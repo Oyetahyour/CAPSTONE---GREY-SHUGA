@@ -503,6 +503,12 @@ input[type="submit"]:hover {
   height: 30px;
   margin-left: 5px;
 }
+/* contact */
+
+.contact{height: 800px !important;
+  
+}
+.footer-container{margin-top: 200px;}
 /* @media (max-width: 800px) {
   .homepage-container {
     width: 100%;
