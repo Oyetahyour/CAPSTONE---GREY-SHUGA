@@ -53,3 +53,8 @@
        
     }
 } 
+/* Home page */
+@media only screen and (max-width: 450px){
+  .container-a{display: flex;
+  flex-direction: column;}
+}

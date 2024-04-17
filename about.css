@@ -192,7 +192,7 @@ hr {
   height: 1px;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .form-inline .input-group {
     width: 300px;
     margin-left: 30px;
@@ -211,4 +211,4 @@ hr {
   .navbar .input-group {
     width: 100%;
   }
-}
+} */
