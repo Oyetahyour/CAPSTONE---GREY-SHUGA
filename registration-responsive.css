@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1000px)
+{.registration{
+   margin-left: 100px;
+}
+    .reg-image img{
+       width: 300px;
+height: 400px;
+    }
+}
+@media only screen and (max-width: 600px)
+{.registration{
+   margin-left: 100px;
+}
+    .reg-image img{
+       width: 200px;
+height: 400px;
+    }
+}
+@media only screen and (min-width: 1300px)
+{.registration{
+   margin-left: 100px;
+}
+    .reg-image img{
+       width: 500px;
+height: 600px;
+    }
+}
+@media only screen and (min-width: 1000px)
+{.registration{
+   margin-left: 100px;
+}
+    .reg-image img{
+       width: 500px;
+height: 600px;
+    }
+}
