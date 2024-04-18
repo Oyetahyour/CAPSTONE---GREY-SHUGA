@@ -55,11 +55,11 @@
             .body-wrap{
                 width: 400px;
             }
-            .checkout-card{
+            /* .checkout-card{
                 display: block;
                 float: inline-start;
                 margin-top: 1000px;
-                  }
+                  } */
                   .secure-connection{
                     margin-right: 100px;
                     
@@ -75,15 +75,16 @@
                 .payment-form{
                    width: 200px;
                 }
-                .checkout-card{
+                /* .checkout-card{
               display: block;
               float: inline-start;
               margin-top: 1000px;
-                }
+                } */
           .secure-connection{
         margin-right: 100px;
         
           }
+         
                 }
                 @media only screen and (max-width: 700px){
                     .homepage-container{
@@ -95,11 +96,11 @@
                     .payment-form{
                        width: 200px;
                     }
-                    .checkout-card{
+                    /* .checkout-card{
                   display: block;
                   float: inline-start;
                   margin-top: 1000px;
-                    }
+                    } */
                     .secure-connection{
                         margin-right: 100px;
                         
