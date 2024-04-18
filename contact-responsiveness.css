@@ -1,26 +1,7 @@
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 600px)
 {
    .footer-container{
       margin-top: 200px;
    }
 }
 
-/* @media only screen and (max-width: 600px)
-{.contact {
-   width: 500px;
-}
-   .contact-container{
-width: 500px;
-
-   }
-   .contact-card{
-    margin-right: 40px;
-    padding-right: 50px;
-   }
-   .flex{
-   margin-left: 50px;
-   }
-   .subject{
-    margin-left: 50px;
-   }
-} */

@@ -1,0 +1,130 @@
+@media only screen and (max-width: 600px) {
+    .headerImage{
+margin-top: 500px;
+width: 1000px ;
+
+    }
+    .container-a {
+        font-size: 50px;
+        width: 700px;
+   text-align: center;
+   margin-left: 300px;
+    }
+    .key-features img{
+      margin-top: 1200px;
+      height: 500px;
+      width:1000px;
+      margin-left: 150px;
+      height: 700px;
+    }
+    .container-a h1{
+        font-size: 50px;
+       
+
+    }
+    .container-a p{
+        font-size: 40px;
+        
+    }
+    .OrderButton{
+        width: 500px ;
+        height: 100px;
+        font-size: 30px;
+    }
+    .homepage-container{
+        width: 500px !;
+       
+    }
+    .offerings-wrap{
+ width: 900px;
+ height: 1200px;
+ margin-left: 100px;
+    }
+    .heroImage{
+        margin-top: 200px;
+        float: inline-start;
+        width: 900px !important;
+    }
+    .offerings{
+        margin-top: 500px;
+        
+    }
+    .hero{
+       margin-left: 250px !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .headerImage{
+margin-top: 900px;
+width: 1000px ;
+
+    }
+    .container-a {
+        font-size: 80px;
+        width: 700px;
+   text-align: center;
+   margin-left: 300px;
+    }
+    .key-features img{
+      margin-top: 1500px;
+      height: 500px;
+      width:1500px;
+      margin-left: 150px;
+      height: 700px;
+    }
+    .container-a h1{
+        font-size: 80px;
+       
+
+    }
+    .container-a p{
+        font-size: 40px;
+        
+    }
+    .OrderButton{
+        width: 700px ;
+        height: 100px;
+        font-size: 40px;
+    }
+    .homepage-container{
+        width: 500px !;
+       
+    }
+    .offerings-wrap{
+ width: 700px;
+ height: 1200px;
+ margin-left: 300px;
+    }
+    .heroImage{
+        margin-top: 200px;
+        float: inline-start;
+        width: 900px !important;
+    }
+    .offerings{
+        margin-top: 500px;
+        
+    }
+    .hero{
+       margin-left: 250px !important;
+    }
+    /* .grid-offerings{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-left: 380px;
+        margin-top: 50px;
+     
+    } */
+    /* .text-center{
+       margin-top: 200px;
+       width: 700px;
+      
+       
+    }
+    .testimonials-container{
+        margin-top: 1200px;
+        margin-left: 300px;
+    
+    } */
+    /* .card-text{font-size: 10px;} */
+}
