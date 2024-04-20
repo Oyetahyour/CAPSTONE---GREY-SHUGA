@@ -21,7 +21,7 @@ height: 400px;
    margin-left: 100px;
 }
     .reg-image img{
-       width: 500px;
+       width:700px !important;
 height: 600px;
     }
 }

@@ -58,3 +58,7 @@
   .container-a{display: flex;
   flex-direction: column;}
 }
+@media only screen and (max-width: 1300px){
+.account-image img{
+  width: 600px;
+}}

@@ -4,7 +4,7 @@
 
 body,
 .body-wrap {
-  width: 1512px;
+  width: 2200px;
   height: 4090px;
   font-family: "Nunito";
 }
@@ -13,13 +13,7 @@ body,
   width: 1512px;
   height: 4090px;
   height: 100vh;
-  background: repeating-linear-gradient(
-    to right,
-    #fed9d9 0px,
-    #fed9d9 40px,
-    #ffffff 40px,
-    #ffffff 50px
-  );
+ background-color: #F2DDE1;
   margin-left: 118.5px;
   margin-right: 118.5px;
 }
@@ -82,6 +76,8 @@ body,
   padding-left: 20px;
 }
 
+  
+
 .container-a {
   text-align: left;
   width: 677px;
@@ -90,12 +86,12 @@ body,
 
 .header-headline {
   text-align: left;
-  width: 677px;
-  width: fit-content;
+  width: 1000px;
+  
   margin-left: 118.5px;
   color: #9e1a26;
   font-weight: bolder;
-  font-size: 58px;
+  font-size: 80px;
 }
 
 .header-text {
@@ -109,7 +105,7 @@ body,
   gap: 24px;
   margin-top: 16px;
   color: #471b14;
-  font-size: 16.5px;
+  font-size: 18px;
 }
 
 .headerImage {
@@ -125,7 +121,7 @@ body,
 }
 
 .OrderButton {
-  width: 255px;
+  width: 240px;
   height: 44px;
   text-align: center;
   background-color: #9e1a26;
@@ -133,6 +129,8 @@ body,
   margin-left: 118.5px;
   border-radius: 12px;
   border-color: #9e1a26;
+  font-weight: bold;
+  
 }
 
 .shuga-offerings {
@@ -196,6 +194,9 @@ body,
   margin-top: -354.5px;
   margin-bottom: 114.5px;
 }
+.headerImage{
+ width: 800px;
+}
 
 .delicious-offerings {
   height: 903px;
@@ -227,11 +228,30 @@ body,
   margin-bottom: 20px;
   color: #9e1a26;
 }
+.testimonial-a img{
+  display: flex;
+  flex-direction: column;
 
+ 
+}
+.testimonial-b{
+  float: inline-end;
+}
+.testimonials-c {
+  font-size: 20px;
+  width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.testimonials {
+ background: linear-gradient(to left, #F5D4E4,#FFF3F9);
+}
 .testimonial-image {
   color: #7a7777;
 }
-
+.theresa{
+  margin-left: 200px;
+}
 .testimonials .card {
   border-bottom: 3px #007bff solid !important;
   transition: 0.5s;
@@ -245,6 +265,7 @@ body,
   margin: -40px auto 0 auto;
 }
 
+
 .footer-container {
   color: #ffffff;
   background: repeating-linear-gradient(
@@ -255,7 +276,9 @@ body,
     #3a0914 50px
   );
 }
-
+.contact-footer{
+ width: 2300px;
+}
 #emailInput {
   background-color: transparent;
   border-color: #ffffff;
