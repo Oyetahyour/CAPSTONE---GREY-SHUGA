@@ -7,6 +7,7 @@ body,
   width: 2200px;
   height: 4090px;
   font-family: "Nunito";
+ 
 }
 
 .homepage-container {
@@ -158,19 +159,21 @@ body,
 }
 
 .hero {
-  width: 1273px;
+  width: 1950px;
   height: 746px;
   margin-top: -50px;
-  margin-bottom: 100px;
-  margin-left: 118.5px;
-  margin-right: 118.5px;
+  margin-bottom: 400px;
+  
+  
+ 
 }
 
 .heroHeading {
   color: #9e1a26;
-  width: 624.5px;
+  width: 1000px;
   height: 317px;
-  font-size: 38px;
+  font-size: 60px;
+  
 }
 
 .heroSectionText {
@@ -178,24 +181,28 @@ body,
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  width: 624.5px;
+  width: 1000px;
   height: 17px;
-  margin-top: 214.5px;
+  margin-top: 300px;
   margin-bottom: 214.5px;
-  font-size: 18px;
+  font-size: 30px;
+  
 }
 
-.heroImage {
-  width: 624.5px;
-  height: 546px;
+.heroImage img{
+  width: 800px;
+  height: 700px;
   display: flex;
   flex-shrink: 0;
   float: right;
   margin-top: -354.5px;
   margin-bottom: 114.5px;
+ 
+
 }
-.headerImage{
+.headerImage img{
  width: 800px;
+ 
 }
 
 .delicious-offerings {
@@ -207,6 +214,7 @@ body,
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  width: 2050px;
 }
 
 .grid img {
@@ -216,12 +224,16 @@ body,
 .delicious-offerings h3 {
   text-align: center;
   color: #7d142c;
-  width: 568px;
+  width: 600px;
   height: 55px;
-  margin-left: 352px;
-  margin-right: 352px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  font-weight:bold;
+  
 }
 .testimonials {
+  margin-top: 300px;
   padding: 100px 0;
 }
 .testimonials h3 {
@@ -244,6 +256,7 @@ body,
  margin-right: auto;
 }
 .testimonials {
+
  background: linear-gradient(to left, #F5D4E4,#FFF3F9);
 }
 .testimonial-image {
@@ -265,16 +278,23 @@ body,
   margin: -40px auto 0 auto;
 }
 
+.David{
+  margin-left: 350px;
+  margin-top: 80px;
 
+}
 .footer-container {
   color: #ffffff;
-  background: repeating-linear-gradient(
+  /* background: repeating-linear-gradient(
     to right,
     #570811 0px,
     #570811 40px,
     #3a0914 40px,
     #3a0914 50px
-  );
+  ); */
+  width: 2300px;
+  background-color:  #570811;
+ 
 }
 .contact-footer{
  width: 2300px;
@@ -532,6 +552,43 @@ input[type="submit"]:hover {
   
 }
 .footer-container{margin-top: 200px;}
+.shop-details
+{color: white;
+  background-image: url(images/shop-1.png);
+  background-repeat: no-repeat;
+ height: 1200px;
+ width: 2500px;
+ text-align: center;
+padding-top: 300px;
+}
+.shop-details-a{
+  font-size: 40px;
+  margin-top: 50px;
+  width: 800px;
+  height: 185px;
+ margin-right: auto;
+ margin-left: auto;
+
+}
+shop-details-b .btn{
+  border: none;
+}
+.shop-images{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+margin-left:100px;
+margin-bottom: 100px;
+}
+.shop-details-c h3{
+margin-left: 130px;
+font-weight: bold;
+}
+.shop-footer{
+  margin-top: 1800px;
+}
+.shop-section{
+  margin-bottom: 50px;
+}
 /* @media (max-width: 800px) {
   .homepage-container {
     width: 100%;

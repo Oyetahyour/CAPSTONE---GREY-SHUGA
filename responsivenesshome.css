@@ -32,9 +32,22 @@ width: 1000px ;
         font-size: 30px;
     }
     .homepage-container{
-        width: 500px !;
+        
+        width: 500px ;
+
        
     }
+    .navbar-brand{
+     
+margin-top: 50px;
+    }
+    } 
+    .navbar-toggler
+    {
+        margin-left: 1050px;
+    }
+  
+   
     .offerings-wrap{
  width: 900px;
  height: 1200px;
