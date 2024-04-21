@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Grey Shuga's mission is great food" />
     <title>Grey Shuga</title>
-    <link rel="stylesheet" href="about.css" />
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsivenesshome.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -37,16 +37,16 @@
     ></script>
     <script src="https://kit.fontawesome.com/183b18702d.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <div class="about-body-wrap">
-      <nav class="navbar navbar-expand-lg navbar-light bg-none">
+
+  <body class="homepage-container">
+    <div class="body-wrap">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light " style="width: 2500px;">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img
               src="images/grey-shuga-logo.png"
               alt="GreyShuga Logo"
-              width="128"
-              height="104"
+             
             />
           </a>
           <button
@@ -64,7 +64,7 @@
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link active text-danger fw-bold"
                   aria-current="page"
                   href="/"
                   title="Home"
@@ -72,173 +72,166 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/about.html" title="About Grey Shuga"
+                <a class="nav-link text-danger fw-bold" href="/about.html" title="About Grey Shuga"
                   >About Us</a
                 >
               </li>
 
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="/shop.html"
-                  title="Our offerings - Shop"
-                  >Shop</a
-                >
+                <div class="dropdown">
+    <button class="dropbtn text-danger fw-bold">Shop 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <a href="/shop.html">Main Shop</a>
+        <a href="/shop.html">Main Shop</a>
+        <a href="/shop.html">Main Shop</a>
+    </div>
+                
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/gallery.html" title="Our photos"
+                <a class="nav-link text-danger fw-bold" href="/gallery.html" title="Our photos"
                   >Gallery</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact.html" title="Contact Us"
+                <a class="nav-link text-danger fw-bold" href="/contact.html" title="Contact Us"
                   >Contact Us</a
                 >
               </li>
+             
             </ul>
-            <div class="navbar-nav ml-auto action-buttons">
-			<div class="nav-item dropdown">
-				<a href="/account-page.html" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4">Login</a>
-                <div class="dropdown-menu action-form">
-					<form action="/examples/actions/confirmation.php" method="post">
-						
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Username" required="required">
-						</div>
-						<div class="form-group">
-							<input type="password" class="form-control" placeholder="Password" required="required">
-						</div>
-						<input type="submit" class="btn btn-primary btn-block" value="Login">
-						<div class="text-center mt-2">
-							<a href="">Forgot Your password?</a>
-						</div>
-					</form>
-                </div>
-			</div>
-			<div class="nav-item dropdown">
-				<a href="/account-page.html" data-toggle="dropdown" class="btn btn-primary dropdown-toggle sign-up-btn">Sign up</a>
-                <div class="dropdown-menu action-form">
-					<form action="/examples/actions/confirmation.php" method="post">
-						<p class="hint-text">Fill in this form to create your account!</p>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Username" required="required">
-						</div>
-						<div class="form-group">
-							<input type="password" class="form-control" placeholder="Password" required="required">
-						</div>
-						<div class="form-group">
-							<input type="password" class="form-control" placeholder="Confirm Password" required="required">
-						</div>
-						<div class="form-group">
-							<label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms & Conditions</a></label>
-						</div>
-						<input type="submit" class="btn btn-primary btn-block" value="Sign up">
-					</form>
-				</div>
-		
+            <div class="nav-item">
+<img
+                  class="icon"
+                  src="../assets/shoppingCart.svg"
+                  alt="account-icon"
+                />
+
+        <a href="/cart.html" class="btn sign-up-btn text-danger fw-bold">Cart</a>
+            </div>
+
+              <div class="nav-item">
+<img
+                  class="icon"
+                  src="../assets/user-logo.svg"
+                  alt="account-icon"
+                />
+
+        <a href="/account-page.html" class="btn sign-up-btn text-danger fw-bold">Account</a>
+            </div>
+
 
           </div>
         </div>
       </nav>
-<br />
 
-<section class="about-header">
-    <div class="row">
-        <div class="col about-summary">
-        <h2>About Us</h2>
-        <br />
-        <p><span class="company-name">Grey Shuga</span> began baking confectionery products in low volume bakery facilities.  The original handmade pastries, cakes, and sandwiches have always used the finest quality and 100% natural healthy ingredients: Highest quality flour, Fresh whole grade A eggs, butter creams and dairy products, pure cane sugar, dark and white chocolates, fresh fruit purees and fillings, the world's finest vanilla and essences.
-        </p>
+      <br />
+    <section class="gallery-details">
+        <div  class="gallery-details-a">
+            <h3 class="fw-bold">
+               About Us
+            </h3>
+            <h3>
+                At GreyShuga, we don't just bake cakes, we create edible works of art that celebrate life's most treasured moments. Our mission is to transform your vision into a delicious and unforgettable centerpiece,
+                 using only the finest ingredients and a sprinkle of artistic magic.
+            </h3>
         </div>
-        <div class="col">
-            <img src="images/piping-bakers.png" width="646" height="706" />
+       
+    </section>
+      
+    <section class="gallery">
+       
+            
+           
+           <div class="row gallery-section "  >
+            <div class="gallery-texts">
+                <h3 >
+                    Why Choose Us
+                                    </h3>
+                                   <p>
+                                    Our team of passionate bakers and cake artists combine their culinary skills with an unwavering dedication to detail. We take pride in using high-quality, 
+                                    locally-sourced ingredients whenever possible, ensuring every bite is a burst of flavor and artistry.
+                                   </p>
+            </div>
+            <div  class="column gallery-texts">
+                <img src="images/gallery.png" alt="ffff"  width="505.46px" height="450px" style="margin-left: 200px;">
+            </div>
+           </div>
+           <div class="row gallery-section">
+            <div class="column gallery-texts">
+              <img src="images/gallery-1.png" alt="Snow" style="margin-left: 250px; width:505.46" height="450px" >
+            </div>
+            <div class="column gallery-texts ">
+              
+              <h3 style="margin-left: 250px;">Our Vission</h3>
+              <p style="margin-right: 200px; width: 600px; padding-right: 100px;" >
+            
+                To create deliciously edible works of art that celebrate life's moments, 
+                nurturing creativity while remaining committed to supporting emerging artists and fostering creativity in our Community.</p>
+            </div>
+          </div>
+             
+
+            
+<div class="row gallery-section">
+    <div class="column gallery-texts">
+        <h3>Our Mission</h3>
+        <p>To be a leading cake artistry brand known for its continuous 
+            innovative expression of art and creativity in edible forms. </p>
+    </div>
+    <div class="column gallery-texts">
+        <img src="images/gallery-2.png" alt="" width="505.46px" height="450px " style="margin-left: 200px;">
+    </div>
+</div>
+    </section>
+               
+      <section class="gallery-section-2 bg-light">
+        <h3 class="text-center">Meet Our Team</h3>
+        <p class="text-center"> Our team of passionate bakers and cake artists combine their culinary skills with an unwavering dedication to detail. </p>
+        <div class="row ">
+            <div class="gallery-images">
+                <img src="images/gallery-3.png" alt=""  width="630px"/>
+                <img src="images/gallery-3.png" alt=""  width="630px" class="mx-lg-4"/>
+                <img src="images/gallery-3.png" alt=""  width="630px" class="mx-4"/>
+               </div>
         </div>
-    </div>
-</section>
-<br />
-<br />
-<div class="choices-header">
-<section class="your-choice choices">
-    <div class="row">
-  <div class="col">
-    <h3>Why Choose Us</h3>
-    <br />
-    <div class="card">
-                    <p>Home baked goods have a special allure about them that store-bought commercially made products simply don’t match up to. They are lovingly made with care and use the best ingredients and methods – the difference is obvious in the final result.</p>
-    </div>
+      </section>
+      <section class="gallery-section-3">
+        <div class="gallery-e">
+            <h3 class="fw-bold text-dark">Our Services</h3>
+        
+        <p>Elevate Your Sweet Skills,Sharpen Your Baking Expertise</p>
+        <button class="text-danger gallery-btn">Contact Us</button>
+        </div>
+     
+        <div class="gallery-f">
+<div class="gallery-f1" >
+  <div class="gallery-f2 ">
+     <img src="images/gallery-icon1.png" alt="">
+    <h3>ON-SITE CLASSES</h3>
+    <p class="w-50  text-center">Learn valuable techniques, explore creative flavor combinations, <br>and have fun creating your own delightful masterpieces!</p>
+</div>
   </div>
-    </div>
-</section>
-
-<div class="choices-container">
-    <section class="our-values choices">
-    <div class="row">
-        <div class="col-4" choices-column>
-            <h3>Our Vision</h3>
-            <br />
-    <div class="card our-vision">
-                    <p>
-To be a leading cake artistry brand known for its continuous innovative expression of art and creativity in edible forms.
-</p>
-    </div>
-        </div>
-        <div class="col-4" choices-column>
-            <h3>Our Mission</h3>
-            <br />
-    <div class="card our-vision">
-                    <p>
-To create deliciously edible works of art that celebrate life’s moments, nurturing creativity while remaining committed to supporting emerging artists and fostering creativity in our community.
-</p>
-    </div>
-        </div>
-    </div>
-</section>
+<div class="gallery-f1">
+ <div class="gallery-f2" >
+  <img src="images/gallery-icon2.png " alt="" >
+  <h3 ">ONLINE CLASSES</h3>
+  <p class="w-50 text-center">Expand your baking horizons from the comfort of your own home with our comprehensive online classes.</p>
 </div>
-</div>
-<section class="tagline">
-    <div class="row">
-        <div class="col-3">
-            <div class="card">
-                <img src="images/shopping-bag.png" alt="" width="40" height="40"/>
-                <br />
-                <p>Shop</p>
-                <p class="shop-content">Where flour, sugar, and creativity converge</p>
-            <button class="shop-button" type="button">Shop</button>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <img src="images/briefcase.png" alt="" width="40" height="40"/>
-                <br />
-                <p>Delivery</p>
-                <p class="shop-content">Where flour, sugar, and creativity converge</p>
-            <button class="shop-button" type="button">Shop</button>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <img src="images/cake.png" alt="" width="40" height="40"/>
-                <br />
-                <p>Catering</p>
-                <p class="shop-content">Where flour, sugar, and creativity converge</p>
-            <button class="shop-button" type="button">Shop</button>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <img src="images/gift.png" alt="" width="40" height="40"/>
-                <br />
-                <p>Free Sample</p>
-                <p class="shop-content">Where flour, sugar, and creativity converge</p>
-            <button class="shop-button" type="button">Shop</button>
-            </div>
-        </div>
+ </div>
+ <div class="gallery-f1">
+    <div class="gallery-f2">
+      <img src="images/gallery-icon3.png" alt="" >
+     <h3 >MINI WORKSHOPS</h3>
+     <p class="w-50 text-center">Looking for a quick and fun learning experience? Our mini workshops focus on specific cake decorating techniques or dessert recipes,</p>
+ </div>
     </div>
-</section>
-<br />
-<br />
-<footer>
-            <div class="footer-container">
+        </div>
+      </section>
+        <footer class="gallery-footer">
+            <div class="footer-container" style="width: 2400px;">
                <img src="images/grey-shuga-logo.png" alt="GreyShuga Logo" width="128" height="104" />
             <div class="row">
                 <div class="col-6">
@@ -251,15 +244,15 @@ To create deliciously edible works of art that celebrate life’s moments, nurtu
                 </div>
                 <div class="col">
                     <ul>
-                        <li>Home</li>
+                        <li><a href="./index.html " class="text-light">HOME</a></li>
                         <br />
-                        <li>About Us</li>
+                        <li><a href="./about.html " class="text-light">About Us</a></li>
                         <br />
-                        <li>Shop</li>
+                        <li><a href="./shop.html " class="text-light">Shop</a></li>
                         <br />
-                        <li>Gallery</li>
+                        <li><a href="./gallery.html " class="text-light">Gallery</a></li>
                         <br />
-                        <li>Contact Us</li>
+                        <li><a href="./contact.html " class="text-light">Contact Us</a></li>
                     </ul>
                 </div>
                  <div class="col">
@@ -297,9 +290,7 @@ To create deliciously edible works of art that celebrate life’s moments, nurtu
     </div>
 </div>
   </div>
-
  </footer>
-
-
-  </body>
+    </div>
+    </body>
 </html>

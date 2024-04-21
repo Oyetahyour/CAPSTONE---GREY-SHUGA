@@ -589,6 +589,141 @@ font-weight: bold;
 .shop-section{
   margin-bottom: 50px;
 }
+/* Gallery */
+.gallery-details{
+  color: white;
+ background-color:#727070;
+
+ height: 600px;
+ width: 2500px;
+ text-align: center;
+padding-top: 150px;
+}
+.gallery-details-a{
+  font-size: 40px;
+  margin-top: 50px;
+  width: 800px;
+  height: 185px;
+ margin-right: auto;
+ margin-left: auto;
+
+}
+.gallery{
+  width: 2400px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.gallery h3{
+  margin-top: 80px;
+  margin-left: 500px;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+.gallery p{
+  width: 800px;
+  margin-left: 250px;
+  font-size: 30px;
+ 
+}
+
+.gallery-section {
+ 
+  display: flex;
+}
+
+.gallery-texts {
+  flex: 50%;
+  padding: 5px;
+}
+.gallery-f{
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+  margin-bottom: 300px;
+ background-color: #FFEEF6;
+ width: 2050px;
+  margin-top: 200px;
+  height: 388px;
+ 
+
+
+}
+.gallery-f h3{
+  margin-left: 180px;
+  font-size: 35px;
+}
+.gallery-f2{
+
+ border-radius: 50px;
+ margin-left: 50px;
+  
+}
+.gallery-f1 img{
+  margin-left: 250px;
+ 
+}
+.gallery-f1 p{
+  margin-left: 150px;
+  font-size: 20px;
+  padding-right: 20px;
+}
+.gallery-e{
+ 
+  text-align: center;
+  margin-left: 150px;
+ font-size: 30px;
+ padding-top: 50px;
+ height: 100px;
+ 
+ 
+}
+.gallery-section-2{
+  background-color: white;
+  width: 2050px;
+  margin-left: 250px;
+}
+.gallery-section-2 h3{
+  text-align: center;
+  padding-top: 20px;
+
+}
+.gallery-section-2 p{
+  text-align: center;
+  padding-bottom: 20px;
+  width: 650px;
+  margin-left: 660px;
+
+}
+.gallery-section-3{
+  /* background-color: #ec8087; */
+width: 1950px;
+margin-left: 230px;
+height: 400px;
+margin-bottom: 200px;
+}
+.gallery-btn{
+  color: red;
+  background: none;
+  font-weight: bold;
+  border: none;
+  font-size: 30px;
+}
+.gallery-footer{
+  margin-top: 500px;
+  
+  
+  
+}
+.gallery-images{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+margin-left:80px;
+margin-left: 20px;
+margin-bottom: 100px; 
+
+}
 /* @media (max-width: 800px) {
   .homepage-container {
     width: 100%;
