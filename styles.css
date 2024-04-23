@@ -724,6 +724,169 @@ margin-left: 20px;
 margin-bottom: 100px; 
 
 }
+.about-image img
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+margin-left:80px;
+margin-left: 20px;
+margin-bottom: 100px; 
+
+}
+.about-section{
+ 
+width: 2000px;
+margin-left: 50px;
+  
+}
+.about-1 {
+  width: 650px !important;
+  margin-left: 20px;
+}
+.about-2{
+  margin-left: 50px;
+  width: 600px !important;
+}
+.about-3{
+  
+  width: 700px !important;
+}
+.about1-details {
+  margin-top: 95px;
+  
+}
+.about-1 p, h3{
+  padding-left: 100px;
+  font-weight: bold;
+}
+.about-2 p{
+margin-left: 20px;
+font-weight: bold;
+
+}
+.about-3 h3{
+ font-size: 40px;
+ width: 300px !important;
+ margin-left: 150px;
+ padding-top: 50px;
+ 
+  
+}
+
+.about-3 {
+  background-color: #A71B3A;
+  width: 600px;
+margin-left: 80px;
+  text-align: center;
+  color: white;
+}
+
+.about-3 img{
+ margin-top: 50px !important;
+ width: 200px !important;
+ height: 150px !important;
+ margin-left: 30px !important;
+}
+.about-images1{
+display: flex;
+}
+.about-images1 img{
+  width: 600px; 
+  height: 500px;
+
+}
+.about-test{
+width: 1970px;
+margin-left: 80px;
+}
+
+ .about-Pic{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+ }
+ .about-PicA{
+ float:inline-end;
+ padding-top: 40px;
+ padding-right: 380px;
+ }
+ 
+ .about-Pic img{
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+ 
+ }
+ .about-Pic h3{
+  
+  width: 600px;
+  
+
+ }
+ .about-Picture{
+ 
+  width: 675px;
+  margin-left: 70px;
+    height: 750px;
+  }
+  .about-sectionTwo{
+    margin-left: 50px;
+  }
+ .about-PicB
+ {
+  display:flex;
+ }
+ .about-PicB p{
+  float:right;
+  padding-top: 40px;
+  padding-right: 380px;
+  
+ }
+ .about-PictureOne p{
+float:right;
+
+ }
+ .about-sectionThree{
+  width: 6000px;
+  margin-left: 50px;
+  
+ }
+ .about-PictureOne img{
+  margin-right: 350px;
+ }
+ /* Popular */
+.pop-footer{
+margin-top: 200px;
+}
+.button{
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.popularnav a{
+
+  margin-left: 80px;
+  font-size: 25px;
+text-decoration: none;
+color:#A71B3A;
+
+}
+.popularnav {
+ 
+ 
+  margin-left: 700px;
+  display: flex;
+}
+body{
+  overflow-x: hidden;
+}
+.homepage-container  {
+  margin-left: 0px !important;
+}
+
 /* @media (max-width: 800px) {
   .homepage-container {
     width: 100%;
