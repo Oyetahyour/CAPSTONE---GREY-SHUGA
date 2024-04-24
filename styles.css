@@ -4,13 +4,13 @@
 
 body,
 .body-wrap {
- 
+  width: 2400px;
   height: 4090px;
   font-family: "Nunito";
  
 }
 .severe{
-
+  width: 2400px;
 }
 .homepage-container {
   width: 1512px;
@@ -900,7 +900,7 @@ color:#A71B3A;
   display: flex;
 }
 body{
-  overflow-x: hidden;
+
 }
 .homepage-container  {
   margin-left: 0px !important;
