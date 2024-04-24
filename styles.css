@@ -923,7 +923,7 @@ body{
     width: 100%;
   }
 }
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
   .homepage-container {
     width: 100%;
     height: auto;
@@ -955,4 +955,4 @@ body{
   input {
     width: 100%;
   }
-} */
+}

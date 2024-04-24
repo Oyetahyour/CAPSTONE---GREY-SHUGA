@@ -1,69 +1,14 @@
 
-/* About */
-
-@media only screen and (max-width: 550px) {
-  .about-header{
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .about-summary{
-    width: 300px;
-      font-size: 18px;
-  }
-  .card{
-    width: 200px;
-    margin-right: 800px;
-    font-size: 10px;
-    
-   }
-   .tagline {
-    width: 10px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 150px;
-     
-  
-     }
-     .tagline .card{
-      margin-top: 20px;
-     }
-     .footer-container{
-      width: 1000px;
-  }
-  
-    .choices-container .card{
-        margin-bottom: 20px !important;
-        margin-left: 100px;
-    }
-    .your-choice .us{
-   
-    margin-right: 300px;
-  
-  }
-  .vision{
-    margin-left: 100px;
-  }
-}
-
-@media only screen and (max-width: 450px)
-{
-    .about-summary{
-        font-size: 17px;
-       
-    }
-} 
 /* Home page */
-@media only screen and (max-width: 450px){
-  .container-a{display: flex;
-  flex-direction: column;}
-}
+
 @media only screen and (max-width: 1300px){
+ 
 .account-image img{
   width: 600px;
 }}
 
 @media only screen and (max-width: 2000px){
+ 
   .severe{
     width: 2000px;
   }
