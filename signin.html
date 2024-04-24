@@ -43,52 +43,42 @@
 <p> Welcome Back! Fill in the form below to access your account<br />
 
 <br />
-<div class="row">
-    <div class="card col-4 signin-image">
-<img src="/images/accountpage-img.png" alt="" width="550" height="500"/>
-    </div>
+<div class="row Account">
+  <div class="card col-4 account-image">
+<img src="/images/accountpage-img.png" alt="" />
+  </div>
 <div class="col-8">
-<div class="account-container">
-    <form>
-<div class="formcontainer">
-      <div class="container">        
-        <label for="mail">Email Address</label>
-        <input type="text" name="mail" id="mail" required placeholder="youremail@gmail.com">
-     
-        <label for="psw">Password
-        </label>
-        <input type="Password" name="psw" id="psw" placeholder="Password">
-<br />
-<br />  
-        <input type="checkbox" id="check">
-        <span>Remember me</span>
-<div class="forgot-password">
-        <a href="#">Forgot Password</a>
-</div>
-<br />
-<br />
-</div>
-
-<div class="button-container">
-      <button type="submit"><span class="login-link"><a href="/user-account.html">Log In</a></span></button>
-      </div>
-      
-      <br />
-
-      <p> Don’t have an account?
-        <span class="login-link"><a href="/account-page.html">Create an account</a></span>
-      </p>
-      <br />
-    
-        <div class="block-item">
-        <button type="submit "class="google-button">
-        <img src="/images/google.png" alt="" /><span class="google-signup"><a href="">Sign Up with Google</a></span>
-      </button>
-      </div>
-    </form>
+       <div class="account-container">
+<form class="form-wrapper">
+ <div class="formcontainer">
+    <div class="container">
+<label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="First Name" style="margin-bottom: 20px; margin-left: 50px;"><br>
+      <label for="mail">E-mail</label>
+      <input type="text" placeholder="Enter E-mail" name="mail" required style="margin-bottom: 20px; margin-left: 80px;"><br>
+      <label for="psw">Password</label>
+      <input type="password" placeholder="Enter Password" name="psw" required style="margin-bottom: 20px;margin-left: 60px;"><br>
+      <label for="psw">Confirm Password</label>
+      <input type="password" placeholder="Confirm Password" name="psw" required class="mt-3 mb-3" >
     </div>
-    </div>   
+   <div class="button-container">
+    <button type="submit" style="margin-left: 20px;"><span class="login-link "><a href="/registration-success.html" >Create Account</a></span></button>
+    </div>
+    <p > Already created an account?
+      <span class="login-link"><a href="/signin.html">Log In</a></span>
+    </p>
+    <br />
+    <div class="block-item center">
+      <button >
+      <img src="/images/google.png" alt="" /><span class="google-signup"><a href="">Sign Up with Google</a></span></button>
+    </span>
+    </button>
+    </div>
+ </div>
 </div>
+</div>
+  </form>
+  </div>
 </div>
 </body>
 </html>

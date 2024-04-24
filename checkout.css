@@ -196,7 +196,14 @@
   border-color: #7d142c;
   padding: 10px 20px;
 }
+.checkout-cart{
+  width: 1200px;
+  
+}
+.checkout-card-1 p{
 
+padding-right: 200px;
+}
 @media (max-width: 800px) {
   .homepage-container {
     width: 100%;
