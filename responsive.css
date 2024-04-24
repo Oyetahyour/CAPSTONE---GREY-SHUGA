@@ -62,3 +62,110 @@
 .account-image img{
   width: 600px;
 }}
+
+@media only screen and (max-width: 2000px){
+  .severe{
+    width: 2000px;
+  }
+  .heroImage img{
+    width: 500px !important;
+    margin-right: 550px;
+    height: 600px;
+
+  }
+  .grid-offerings {
+    width: 300px;
+    margin-right: 0px !important;
+    padding-right: 0px;
+  }
+  .grid-offerings img{
+    width: 550px;
+  }
+  .footer-container{
+    width: 2000px ;
+  }
+}
+@media only screen and (max-width: 1500px){
+  .severe{
+    width: 1400px;
+  }
+  .heroImage img{
+    width: 300px !important;
+    margin-right: 1150px;
+    height: 400px;
+
+  }
+  .grid-offerings {
+    width: 200px;
+    margin-right: 0px !important;
+    padding-right: 0px;
+  }
+  .grid-offerings img{
+    width: 350px;
+  }
+  .footer-container{
+    width: 1300px ;
+   padding-top: 20px;
+   padding-left: 20px;
+  }
+  .hero p{
+    font-size: 25px;
+    padding-right: 250px;
+  }
+  .headerImage{
+   width: 300px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+.severe{
+  width: 900px;
+}
+.header-card-1 h1{
+  font-size: 15px;
+  margin-top: 50px;
+  padding-right: 650px !important;
+  
+}
+.header-card-1 p{
+  font-size: 15px;
+  padding-right: 350px;
+}
+.headerImage{
+ width: 40px;
+}
+.heroImage img{
+  width: 800px !important;
+  margin-right: 1150px;
+  height: 400px;
+  margin-top: 200px;
+  padding-right: 200px;
+
+}
+.grid-offerings {
+  width: 200px;
+  margin-right: 0px !important;
+  padding-right: 0px;
+  
+}
+.grid-offerings img{
+  width: 250px;
+margin-top: 100px;
+}
+.footer-container{
+  width: 800px ;
+ padding-top: 20px;
+ padding-left: 20px;
+}
+.hero p{
+  font-size: 25px;
+  padding-right: 250px;
+
+}
+
+.headerImage{
+ width: 300px;
+}
+.testimonials{
+ width: 800px;
+}
+}

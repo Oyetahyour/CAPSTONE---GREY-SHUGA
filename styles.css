@@ -4,12 +4,14 @@
 
 body,
 .body-wrap {
-  width: 2200px;
+  width: 2400px;
   height: 4090px;
   font-family: "Nunito";
  
 }
-
+.severe{
+  width: 2400px;
+}
 .homepage-container {
   width: 1512px;
   height: 4090px;
@@ -597,7 +599,7 @@ font-weight: bold;
  background-color:#727070;
 
  height: 600px;
- width: 2500px;
+ width: 2400px;
  text-align: center;
 padding-top: 150px;
 }
@@ -630,7 +632,7 @@ padding-top: 150px;
 }
 
 .gallery-section {
- 
+
   display: flex;
 }
 
@@ -916,7 +918,11 @@ body{
   color:  white;
   font-weight: bold;
 }
-
+@media (max-width: 2000px){
+  .body-wrap{
+    width: 100%;
+  }
+}
 /* @media (max-width: 800px) {
   .homepage-container {
     width: 100%;
