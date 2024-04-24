@@ -4,13 +4,13 @@
 
 body,
 .body-wrap {
-  width: 1250px;
+  width: 1200px;
   height: 4090px;
   font-family: "Nunito";
  
 }
 .severe{
-  width: 1250px;
+  width: 1150px;
 }
 .homepage-container {
   width: 1400px;
@@ -94,7 +94,12 @@ body,
   margin-left: 118.5px;
   color: #9e1a26;
   font-weight: bolder;
-  font-size: 80px;
+  font-size: 30px;
+  padding-right: 700px;
+}
+.header-text{
+  font-size: 15px !important;
+  padding-right: 300px;
 }
 
 .header-text {
@@ -174,7 +179,8 @@ body,
   color: #9e1a26;
   width: 1000px;
   height: 317px;
-  font-size: 60px;
+  font-size: 30px;
+  padding-right: 500px;
   
 }
 
@@ -187,25 +193,27 @@ body,
   height: 17px;
   margin-top: 300px;
   margin-bottom: 214.5px;
-  font-size: 30px;
+  font-size: 20px;
+  padding-right: 500px;
+  
   
 }
 
 .heroImage img{
-  width: 900px;
-  height: 700px;
+  width: 300px;
+  height: 450px;
   display: flex;
   flex-shrink: 0;
-  float: right;
-  margin-top: -354.5px;
+margin-left: 500px;
+  margin-top: -294.5px;
   margin-bottom: 114.5px;
-  margin-left: 900px !important;
+ 
  
 
 }
 .headerImage img{
  width: 800px;
- 
+
 }
 
 .delicious-offerings {
@@ -217,14 +225,24 @@ body,
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  width: 2400px;
+  width: 20px;
   margin-top: 50px;
 }
+.grid-offerings img {
+  margin-top: 50px;
+width: 300px;
 
+}
 .grid img {
   width: 100%;
-}
 
+}
+.footer-container{
+  width: 1000px !important;
+  padding-top: 20px;
+  padding-left: 20px;
+ 
+}
 .delicious-offerings h3 {
   text-align: center;
   color: #7d142c;
@@ -597,9 +615,9 @@ font-weight: bold;
 .gallery-details{
   color: white;
  background-color:#727070;
-
+font-size: 15px !important;
  height: 600px;
- width: 2400px;
+ width: 1150px;
  text-align: center;
 padding-top: 150px;
 }
@@ -611,9 +629,28 @@ padding-top: 150px;
  margin-right: auto;
  margin-left: auto;
 
+
 }
+.AboutOne {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  margin-left: 100px !important;
+  margin-bottom: 100px;
+ 
+ }
+ 
+ .AbtImage  {
+width: 300px;
+margin-left: 400px;
+ }
+ 
+ .text {
+   font-size: 70px;
+ }
 .gallery{
-  width: 2400px;
+ 
   margin-bottom: 100px;
   margin-top: 100px;
 }
@@ -634,11 +671,27 @@ padding-top: 150px;
 .gallery-section {
 
   display: flex;
+
+  width: 1150px;
 }
 
 .gallery-texts {
   flex: 50%;
   padding: 5px;
+ 
+ 
+}
+.gallery-texts p{
+  font-size: 20px;
+  padding-right: 400px;
+}
+.gallery-texts img{
+  width: 50px;
+  height: 300px;
+
+}
+.gallery-texts h3{margin-left: 200px;
+  font-size: 30px;
 }
 .gallery-f{
   
@@ -647,21 +700,23 @@ padding-top: 150px;
   
   margin-bottom: 300px;
  background-color: #FFEEF6;
- width: 2030px;
+ width: 1000px;
   margin-top: 200px;
-  height: 400px;
+  height: 450px;
   margin-left: 18px;
  
 
 
 }
+
 .gallery-f2{
   background-color: #fed9d9;
 
 }
 .gallery-f h3{
-  margin-left: 80px;
-  font-size: 35px;
+ padding: 10px !important;
+  font-size: 25px;
+
 }
 .gallery-f2{
 
@@ -672,14 +727,18 @@ padding-top: 150px;
   
 }
 .gallery-f1 img{
-  margin-left: 250px;
+  margin-left: 50px;
   padding: auto;
+  
  
 }
+
 .gallery-f1 p{
-  margin-left: 150px;
-  font-size: 20px;
-  padding-right: 20px;
+  margin-left: 50px;
+  font-size: 15px;
+  
+  width: 500px;
+  padding-bottom: 10px;
 }
 .gallery-e{
  
@@ -693,27 +752,32 @@ padding-top: 150px;
 }
 .gallery-section-2{
   background-color: white;
-  width: 2050px;
+  width: 1000px;
   margin-left: 250px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .gallery-section-2 h3{
   text-align: center;
   padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
 
 }
 .gallery-section-2 p{
   text-align: center;
   padding-bottom: 20px;
   width: 650px;
-  margin-left: 660px;
+  margin-left: 200px;
 
 }
 .gallery-section-3{
   /* background-color: #ec8087; */
-width: 1950px;
-margin-left: 230px;
+width: 900px;
+
 height: 400px;
 margin-bottom: 200px;
+margin-left:70px ;
 }
 .gallery-btn{
   color: red;
@@ -722,18 +786,19 @@ margin-bottom: 200px;
   border: none;
   font-size: 30px;
 }
-.gallery-footer{
-  margin-top: 500px;
-  
+.footer-container{
+  margin-top: 750px;
+  width: 1150px !important;
   
   
 }
 .gallery-images{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-margin-left:80px;
+
 margin-left: 20px;
 margin-bottom: 100px; 
+
 
 }
 .about-image img
