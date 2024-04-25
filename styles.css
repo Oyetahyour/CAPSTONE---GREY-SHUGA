@@ -1099,3 +1099,282 @@ padding-left: 50px;
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1920px){
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+.body-wrap {
+ 
+  width: 1920px ;
+  max-width: 1920px !important; /* Set the maximum width for better responsiveness */
+  height: 4090px;
+  font-family: "Nunito";
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.homepage-container {
+  width: 1500px; /* Set the width to match the screen width */
+  height: 100vh;
+  background-color: #F2DDE1;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.homepage-main-wrap {
+  margin-left: 160px; /* Adjust margin for better alignment */
+}
+
+.navbar,
+.nav-link,
+.navbar-brand {
+  color: #9e1a26;
+ 
+}
+.navbar{
+width: 1920px;
+}
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  margin-top: 6px;
+}
+
+.dropdown-content {
+  min-width: 200px; /* Increase the minimum width for better display */
+}
+
+.dropdown-content a {
+  color: #981327;
+}
+
+.header-headline,
+.header-text {
+  width: 1500px; /* Adjust width for responsiveness */
+  margin: 0 auto; /* Center the content horizontally */
+  margin-left: 100px;
+  font-size: 35px !important;
+}
+
+.headerImage img {
+  width: 100%; /* Make the image responsive */
+  margin-left: 850px;
+}
+.key-features{
+  width: 1700px;
+  margin-left: 100px !important;
+}
+.hero {
+  width: 1700px; /* Set the width to match the screen width */
+  height: 746px;
+  margin-top: 50px; /* Adjust margin for better alignment */
+  margin-bottom: 400px;
+}
+.homepage-main-wrap{
+  width: 1550px;
+  margin-right: 50px !important;
+}
+.heroHeading,
+.heroSectionText {
+  width: 1450px; /* Adjust width for responsiveness */
+  margin: 0 auto; /* Center the content horizontally */
+  margin-top: 10px !important;
+  font-size: 30px;
+}
+.heroImage img{
+  width: 550px;
+  margin-left: 1000px;
+  margin-top: 5px;
+}
+.delicious-offerings
+ {
+  width: 1500px; /* Set the width to match the screen width */
+  margin-bottom: 500px !important;
+}
+.gallery-details{
+  width: 1920px;
+}
+.grid-offerings img {
+  width: 520px !important; /* Make the images responsive */
+  margin-bottom: 50px !important;
+}
+.AboutOne{
+  width: 1700px !important;
+
+margin-left: 200px;
+}
+.AboutOne p{
+  margin-left: 150px;
+  font-size: 25px !important;
+}
+.AboutOne img{
+width: 500px;
+margin-left: 300px;
+}
+.image img{
+width: 500px !important;
+}
+.testimonials{
+  margin-left: 50px;
+  width: 1550px;
+}
+
+.contact-container,
+.shop-details,
+.gallery-section-2
+ {
+ 
+  width: 1500px; /* Set the width to match the screen width */
+  margin: 0 auto; /* Center the content horizontally */
+  margin-left: 250px;
+}
+.gallery-section-2 img{
+width: 390px !important;
+padding-left: 50px;
+}
+.gallery-section-2 p{
+  margin-left: 450px;
+}
+.gallery-f{
+ width: 1500px;
+ margin-left: 180px;
+
+}
+.gallery-e {
+  margin-top: 100px;
+margin-left: 500px;
+}
+.gallery-e p{
+
+  margin-left: 100px;
+  width: 500px;
+}
+.gallery-btn{
+  margin-left: 300px;
+}
+.gallery-f2 p{
+margin-left: 100px;
+}
+.gallery-f2 img{
+ 
+margin-left: 150px;
+}
+.footer-container{
+  width: 1920px !important;
+}
+.about-image img {
+  width: 100%; /* Make the images responsive */
+}
+
+.about-sectionThree {
+
+  width: 1500px; /* Set the width to match the screen width */
+  margin-left: 50px; /* Adjust margin for better alignment */
+}
+
+
+.about-Picture img{
+  width: 400px !important;
+  height: 500px !important;
+}
+.popularnav {
+
+width: 1300px !important;
+  margin-left: 470px; /* Adjust margin for better alignment */
+  
+}
+.popularnav a{
+  font-size: 20px;
+  margin-right: 40px !important; 
+}
+
+.shop-images img {
+  width: 150px;
+}
+
+.poping-images img {
+  width: 180px;
+  margin-top: 50px;
+  padding-left: 50px;
+}
+.shoping-images img{
+width: 500px !important;
+}
+.shop-details-c{
+  margin-left: 150px;
+}
+.Blog {
+margin-left: 0px;
+}
+.BlogFooter{
+margin-top: 800px !important;
+}
+.about-section img{
+width: 535px;
+}
+.about-section2{
+width: 1500px !important;
+}
+.BlogTest{
+width: 1700px !important;
+
+}
+.about-2 img{
+  width: 650px !important;
+  height: 500px !important;
+}
+.about-2 p{
+  margin-top: 50px;
+font-size: 20px;
+}
+.about-3{
+  width: 700px !important;
+  margin-left: 200px !important;
+}
+.about-sectionTwo{
+width: 1700px !important;
+
+}
+.about9 img{
+width: 1000px !important;
+}
+.about-Picture{
+  width: 450px;
+  margin-left: 110px;
+}
+.about-Picture img{
+  width: 300px !important;
+  height: 500px !important;
+}
+.blogPicture img{
+  width: 50px !important;
+  height: 50px !important;
+}
+.blogImages img{
+width: 510px;
+}
+.BlogTest{
+  width: 1500px ;
+  margin-top: 200px !important;
+}
+@media (max-width: 2000px) {
+  .body-wrap {
+    width: 100%;
+  }
+}
+}
+
