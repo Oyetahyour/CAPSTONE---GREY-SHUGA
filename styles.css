@@ -4,13 +4,13 @@
 
 body,
 .body-wrap {
-  width: 1250px;
+  width: 1200px;
   height: 4090px;
   font-family: "Nunito";
  
 }
 .severe{
-  width: 1250px;
+  width: 1200px;
 }
 .homepage-container {
   width: 1400px;
@@ -239,7 +239,7 @@ width: 300px;
 
 }
 .footer-container{
-  width: 1250px !important;
+  width: 1200px !important;
   padding-top: 20px;
   padding-left: 20px;
  
@@ -627,9 +627,9 @@ padding-left: 50px;
 .gallery-details{
   color: white;
  background-color:#727070;
-font-size: 15px !important;
+font-size: 10px !important;
  height: 600px;
- width: 1250px;
+ width: 1200px;
  text-align: center;
 padding-top: 150px;
 }
@@ -637,10 +637,10 @@ padding-top: 150px;
  width: 500px;
  margin-left: auto;
  margin-right: auto;
- font-size: 25px;
+ font-size: 15px;
 }
 .gallery-details-a{
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 50px;
   width: 800px;
   height: 185px;
@@ -716,12 +716,13 @@ margin-left: 200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   
-  margin-bottom: 300px;
+  margin-bottom: 200px;
  background-color: #FFEEF6;
  width: 1000px;
-  margin-top: 200px;
-  height: 450px;
+  margin-top: 50px;
+  height: 250px;
   margin-left: 18px;
+
 
  
 
@@ -734,8 +735,8 @@ margin-left: 200px;
 }
 .gallery-f h3{
  padding: 10px !important;
-  font-size: 25px;
-  
+  font-size: 10px;
+  display: none;
 
 }
 .gallery-f1 h3{
@@ -744,30 +745,31 @@ margin-left: 200px;
 .gallery-f2{
 
  border-radius: 50px;
- margin-left: 2px;
- margin-top: 50px;
+ margin-left: 10px;
+ margin-top: 30px;
 
   
 }
 .gallery-f1 img{
-  margin-left: 50px;
+  margin-left: 100px;
   padding: auto;
   
  
 }
 
 .gallery-f1 p{
-  margin-left: 50px;
-  font-size: 15px;
+  margin-left: 80px;
+  font-size: 10px;
   
   width: 200px;
   padding-bottom: 10px;
+
 }
 .gallery-e{
  
   text-align: center;
   margin-left: 150px;
- font-size: 30px;
+ font-size: 10px;
  padding-top: 50px;
  height: 100px;
  
@@ -783,6 +785,7 @@ margin-left: 200px;
   padding-top: 20px;
   margin-right: auto;
   margin-left: auto;
+  font-size: 10px;
 
 
 }
@@ -791,26 +794,30 @@ margin-left: 200px;
   padding-bottom: 20px;
   width: 650px;
   margin-left: 200px;
+  font-size: 10px;
 
 }
 .gallery-section-3{
   /* background-color: #ec8087; */
 width: 900px;
 
-height: 400px;
-margin-bottom: 200px;
+height: 200px;
+margin-bottom: 3px;
 margin-left:70px ;
+}
+.gallery-section-3 h3{
+margin-left: 200px;
 }
 .gallery-btn{
   color: red;
   background: none;
   font-weight: bold;
   border: none;
-  font-size: 30px;
+  font-size: 10px;
 }
 .footer-container{
   margin-top: 450px;
-  width: 1250px !important;
+  width: 1200px !important;
   
   
 }
@@ -940,15 +947,15 @@ margin-left: 80px;
 
  }
  .about-Picture{
-  width: 250px;
+  width: 150px;
 margin-right: 200px;
  }
  .about-Picture img{
 
-  width: 150px;
+  width: 100px;
  
     height: 350px;
- margin-left: 100px;
+ margin-left: 50px;
   }
   .about-sectionTwo{
     margin-left: 100px;
@@ -988,6 +995,7 @@ margin-top: 1000px;
   padding-right: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
+
 }
 .button:hover{
  color: red;
