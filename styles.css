@@ -4,13 +4,13 @@
 
 body,
 .body-wrap {
-  width: 1200px;
+  width: 1250px;
   height: 4090px;
   font-family: "Nunito";
  
 }
 .severe{
-  width: 1150px;
+  width: 1250px;
 }
 .homepage-container {
   width: 1400px;
@@ -239,7 +239,7 @@ width: 300px;
 
 }
 .footer-container{
-  width: 1000px !important;
+  width: 1250px !important;
   padding-top: 20px;
   padding-left: 20px;
  
@@ -316,7 +316,7 @@ width: 300px;
     #3a0914 40px,
     #3a0914 50px
   ); */
-  width: 2300px;
+
   background-color:  #570811;
  
 }
@@ -575,7 +575,7 @@ input[type="submit"]:hover {
 .contact{height: 800px !important;
   
 }
-.footer-container{margin-top: 200px;}
+
 .shop-details
 {color: white;
   background-image: url(images/shop-1.png);
@@ -608,9 +608,7 @@ margin-bottom: 200px;
 
 font-weight: bold;
 }
-.shop-footer{
-  margin-top: 1800px;
-}
+
 .shop-section{
   margin-bottom: 50px;
 }
@@ -631,7 +629,7 @@ padding-left: 50px;
  background-color:#727070;
 font-size: 15px !important;
  height: 600px;
- width: 1150px;
+ width: 1250px;
  text-align: center;
 padding-top: 150px;
 }
@@ -812,7 +810,7 @@ margin-left:70px ;
 }
 .footer-container{
   margin-top: 450px;
-  width: 1150px !important;
+  width: 1250px !important;
   
   
 }
@@ -987,8 +985,12 @@ margin-top: 1000px;
 .button{
   border-radius: 20px;
   padding: 5px;
+  padding-right: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
+}
+.button:hover{
+ color: red;
 }
 .popularnav a{
 
@@ -1008,7 +1010,7 @@ width: 150px;
 }
 
 .button2{
- 
+ background-color: #F2DDE1;
 }
 .popular p{
 font-size: 10px;
@@ -1029,7 +1031,7 @@ body{
 .button2{
 
   border: none;
-  background-color:  #fed9d9;
+
  
 }
 .footerA ul a {
@@ -1046,12 +1048,15 @@ body{
 
 margin-bottom: 200px;
 }
+
 .poping-images img{
 width: 180px;
 margin-top: 50px;
 padding-left: 50px;
 
 }
+
+
 @media (max-width: 2000px){
   .body-wrap{
     width: 100%;
