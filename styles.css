@@ -921,22 +921,17 @@ width: 1970px;
 margin-left: 80px;
 }
 
- .about-Pic{
-  
 
- 
- 
- }
  .about-PicA{
  float:inline-end;
- 
- 
+
+
  }
  
  .about-Pic img{
   height: 50px !important;
   width: 50px !important;
-  margin-top: 10px;
+
 
  }
  .about-Pic h3{
@@ -947,14 +942,15 @@ margin-left: 80px;
 
  }
  .about-Picture{
-  width: 150px;
+  width: 250px;
+  height: 550px;
 margin-right: 200px;
  }
  .about-Picture img{
 
   width: 100px;
  
-    height: 350px;
+    height: 250px;
  margin-left: 50px;
   }
   .about-sectionTwo{
